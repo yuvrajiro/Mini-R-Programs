@@ -1,0 +1,12 @@
+x<-c(4,6,4,6,4,7,7,7,7,6)
+runi<-function(x){
+  uni<-NULL;
+  while(length(x)!=0){
+    key<-x[1]
+    y<-key==x
+    uni<-c(uni,key)
+    z<-x[!y]
+    x<-z
+  };
+  uni;
+}
