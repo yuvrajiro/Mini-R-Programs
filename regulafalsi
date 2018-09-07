@@ -1,0 +1,32 @@
+f<-function(x)
+{
+  x-exp(-x);
+}
+
+regula<-function(f,m,n)
+{
+  if(f(m)*f(n)<0 )
+  {
+    slope<-(f(m)-f(n))/(m-n)
+    g<-m-(f(m)/slope)
+    if(abs(f(g))>0.001 && f(g)>0)
+    {
+      n<-g
+      regula(f,m,n)
+    }
+    else if(abs(f(g))>0.001 && f(g)<0)
+    {
+      m<-g
+      bisection(f,m,n)
+    }
+    else
+    {
+      print(g)
+    }
+}
+else
+{
+  print("invalid input")
+}
+  
+}
