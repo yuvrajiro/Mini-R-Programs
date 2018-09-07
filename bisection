@@ -1,0 +1,31 @@
+y<-function(x)
+{
+  x-exp(-x);
+}
+
+bisection<-function(y,m,n)
+{
+  if(y(m)*y(n)<0)
+  {
+    g<-(m+n)/2
+    if(abs(y(g))>0.001 && y(g)>0)
+    {
+      n<-g
+      bisection(y,m,n)
+    }
+    else if(abs(y(g))>0.001 && y(g)<0)
+    {
+      m<-g
+      bisection(y,m,n)
+    }
+    else
+    {
+      print(g)
+    }
+  }
+  else
+  {
+    print("invalid input")
+  }
+  
+}
