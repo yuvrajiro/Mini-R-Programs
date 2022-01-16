@@ -5,4 +5,4 @@ This repo is a collection of useful scripts in R that i have made during my time
 ## List of scripts
 
 :pushpin: **Sorting**  
-\item :round_pushpin: *Quick Sort* / [PDF](Sorting/QuickSort.pdf)) / [Source](Sorting/QuickSort.R)  
+⋅⋅1. :round_pushpin: *Quick Sort*        [PDF](Sorting/QuickSort.pdf))       [Source](Sorting/QuickSort.R)  
