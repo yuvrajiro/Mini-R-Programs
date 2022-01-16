@@ -1,11 +1,16 @@
-# It is a recursive function that implements the quicksort algorithm.
-# It takes as input a vector
-# It returns the sorted vector.
+#' ---
+#' title: "Quick Sort in R"
+#' author: "Rahul Goswami"
+#' ---
 
-#' @param vec A vector of numbers.'
-#' @return A sorted vector of @code{vec}.'
-#' @examples 
-#' qs(c(1,2,5,4,6,10))'
+
+
+
+#' It is a recursive function that implements the quicksort algorithm.  
+#' It takes as input a vector  
+#' It returns the sorted vector.  
+
+
 
 qs <- function(vec)
   {
@@ -19,4 +24,9 @@ qs <- function(vec)
       }
   
     else vec
-  }
+}
+
+#' ### Example
+#' Take A vector 
+vector = c(7,6,5,1,0,9,5,5)
+qs(vector)
