@@ -27,7 +27,6 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
    - :round_pushpin: *Binary Search*  &nbsp; [PDF](Searching/BinarySearch/binarysearch.pdf)  &emsp; [Source](Searching/BinarySearch/binarysearch.R)
    - :round_pushpin: *Interpolation Search*  &nbsp; [PDF](Searching/InterpolationSearch/interpolationsearch.pdf)  &emsp; [Source](Searching/InterpolationSearch/interpolationsearch.R)
    - :round_pushpin: *Jump Search*  &nbsp; [PDF](Searching/JumpSearch/jumpsearch.pdf)  &emsp; [Source](Searching/JumpSearch/jumpsearch.R)
-   - :round_pushpin: *Ternary Search*  &nbsp; [PDF](Searching/TernarySearch/ternarysearch.pdf)  &emsp; [Source](Searching/TernarySearch/ternarysearch.R)
    - :round_pushpin: *Linear Search*  &nbsp; [PDF](Searching/LinearSearch/linearsearch.pdf)  &emsp; [Source](Searching/LinearSearch/linearsearch.R)
 3. :pushpin: **Graphs**
    - :round_pushpin: *Dijkstra's Algorithm*  &nbsp; [PDF](Graphs/Dijkstra/dijkstra.pdf)  &emsp; [Source](Graphs/Dijkstra/dijkstra.R)
@@ -81,5 +80,12 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 10. :pushpin: **Linear Algebra**
     - :round_pushpin: *Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/MatrixFactorization/matrixfactorization.pdf)  &emsp; [Source](LinearAlgebra/MatrixFactorization/matrixfactorization.R)
     - :round_pushpin: *Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
+
+11. :pushpin: **Deep Learning**
+    - :round_pushpin: *Neural Network*  &nbsp; [PDF](DeepLearning/NeuralNetwork/neuralnetwork.pdf)  &emsp; [Source](DeepLearning/NeuralNetwork/neuralnetwork.R)
+    - :round_pushpin: *Auto Encoder*  &nbsp; [PDF](DeepLearning/AutoEncoder/autoencoder.pdf)  &emsp; [Source](DeepLearning/AutoEncoder/autoencoder.R)
+    - :round_pushpin: *Convolutional Neural Network*  &nbsp; [PDF](DeepLearning/ConvolutionalNeuralNetwork/convolutionalneuralnetwork.pdf)  &emsp; [Source](DeepLearning/ConvolutionalNeuralNetwork/convolutionalneuralnetwork.R)
+    - :round_pushpin: *Recurrent Neural Network*  &nbsp; [PDF](DeepLearning/RecurrentNeuralNetwork/recurrentneuralnetwork.pdf)  &emsp; [Source](DeepLearning/RecurrentNeuralNetwork/recurrentneuralnetwork.R)
+    
 
 
