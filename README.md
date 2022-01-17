@@ -64,4 +64,11 @@ This repo is a collection of useful scripts in R that i have made during my time
 
 8. :pushpin: **Advanced Statistical Algorithm**
 
+9. :pushpin: **Advanced Machine Learning**
+    - :round_pushpin: *Neural Network*  &nbsp; [PDF](AdvancedMachineLearning/NeuralNetwork/neuralnetwork.pdf)  &emsp; [Source](AdvancedMachineLearning/NeuralNetwork/neuralnetwork.R)
+
+10. :pushpin: **Linear Algebra**
+    - :round_pushpin: *Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/MatrixFactorization/matrixfactorization.pdf)  &emsp; [Source](LinearAlgebra/MatrixFactorization/matrixfactorization.R)
+    - :round_pushpin: *Determinant** &nbsp; [PDF](LinearAlgebra/Determinant/determinant.pdf)  &emsp; [Source](LinearAlgebra/Determinant/determinant.R)
+
 

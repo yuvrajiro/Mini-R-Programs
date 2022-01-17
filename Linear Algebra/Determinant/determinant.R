@@ -48,7 +48,7 @@ deteminant_of_A = r.det(A) # The determinant of A
 
 #' Now let us see how it works on a bigger matrix, with dimension 20x20
 
-Big_Matrix = matrix(sample.int(20, size = 150, replace = TRUE), nrow = 15, ncol = 15)
+Big_Matrix = matrix(sample.int(20, size = 150, replace = TRUE), nrow = 10, ncol = 10)
 
 #' The determinant of the matrix is calculated by the function r.det(Big_Matrix)
 #' Let us check the time taken for the function to run
@@ -65,7 +65,53 @@ cat("Time taken for the function to run is ", end.time - start.time, " seconds")
 
 #' ### Let's Talk about the Cause
 #' The determinant of a matrix is calculated by the trivial formula takes a lot of time to calulate 
-#' and it is not efficient for large matrices. that is well described by Gilbert Strang in his book
-#' "Linear Algebra and its applications" and in the Video lecture of the same book available through
-#' MIT OpenCourseWare, the link is given below.
-#' [Link for Lecture](https://ocw.mit.edu/courses/mathematics/18-01sc-linear-algebra-fall-2011/lecture-notes/MIT18_01SCF11_lec11.pdf)
+#' and it is not efficient for large matrices. It happens because the number of operations computer 
+#' has to perform is too much. The number of operations computer is of O(n!) where n is the dimension
+#' of the matrix.
+
+#' ### Solution to the problem
+#' The solution to the problem is to convert the matrix into a lower triangular matrix or upper triangular
+#' matrix. The lower triangular matrix is a matrix where all the elements below the main diagonal are
+#' zero. The upper triangular matrix is a matrix where all the elements above the main diagonal are
+#' zero and the determinant is just the product of the diagonal elements. The number of operations step is
+#' O(n^3) where n is the dimension of the matrix.
+
+#' For details check the Gilbert Strang's book Linear Algebra and its applications.
+
+#' Now let us write a function to calculate the determinant of a matrix in a reasonable time named r.fast.det
+
+r.fast.det <- function(A){
+  # A function to Convert the matrix into a lower triangular matrix
+  lower_triangular<-function(x)
+  {
+    if(is.matrix(x)==1)
+    {
+      for(i in 2:nrow(x))
+      {
+        x[i, ]<-x[i, ]-x[i,1]*(x[1, ]/x[1,1])
+      }
+      x[-1,-1]<-lower_triangular(x[-1,-1])
+    }
+  x
+  }
+  
+  lower_triangular_A = lower_triangular(A)
+  # Determinant is product of diagonal elements of lower_triangular_A
+  determinant = 1
+  for(i in 1:nrow(lower_triangular_A))
+  {
+    determinant<-determinant*lower_triangular_A[i,i]
+  }
+
+  determinant
+}
+
+#' The determinant of the matrix is calculated by the function r.fast.det(Big_Matrix)
+#' Let us check the time taken for the function to run
+
+start.time <- Sys.time()
+deteminant_of_Big_Matrix = r.fast.det(Big_Matrix)
+end.time <- Sys.time()
+cat("Time taken for the function to run is ", end.time - start.time, " seconds")
+ 
+
