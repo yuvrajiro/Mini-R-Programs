@@ -8,13 +8,13 @@
 #' It's average case time complexity is O(n^2)  
 
 #'
-#' Algorithm:
-#' 1. Pick the smallest element from the unsorted list and place it at the beginning
-#' 2. Repeat the above step until the entire list is sorted
+#' ### Algorithm:  
+#' 1. Pick the smallest element from the unsorted list and place it at the beginning   
+#' 2. Repeat the above step until the entire list is sorted  
 
-#' It is an improvement over bubble sort. It is a stable sorting algorithm.
+#' It is an improvement over bubble sort. It is a stable sorting algorithm.  
 
-#' Let us create a function that implements the selection sort algorithm.
+#' Let us create a function that implements the selection sort algorithm.  
 
 selection.sort <- function(vec){
     # Iterate over the vector
