@@ -18,9 +18,9 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 1. :pushpin: **Sorting**  
    - :round_pushpin: *Quick Sort*  &nbsp; [PDF](Sorting/QuickSort/quicksort.pdf)  &emsp; [Source](Sorting/QuickSort/quicksort.R)  
-   - :round_pushpin: *Merge Sort*  &nbsp; [PDF](Sorting/MergeSort/mergesort.pdf)  &emsp; [Source](Sorting/MergeSort/mergesort.R)
+   - :round_pushpin: *Merge Sort*  &nbsp; [PDF](Sorting/Merge%20Sort/mergesort.pdf)  &emsp; [Source](Sorting/Merge%20Sort/mergesort.R)
    - :round_pushpin: *Heap Sort*  &nbsp; [PDF](Sorting/HeapSort/heapsort.pdf)  &emsp; [Source](Sorting/HeapSort/heapsort.R)
-    - :round_pushpin: *Bubble Sort*  &nbsp; [PDF](Sorting/Bubble%20Sort/bubblesort.pdf)  &emsp; [Source](Sorting/BubbleSort/bubblesort.R)
+    - :round_pushpin: *Bubble Sort*  &nbsp; [PDF](Sorting/Bubble%20Sort/bubblesort.pdf)  &emsp; [Source](Sorting/Bubble%20Sort/bubblesort.R)
     - :round_pushpin: *Selection Sort*  &nbsp; [PDF](Sorting/SelectionSort/selectionsort.pdf)  &emsp; [Source](Sorting/SelectionSort/selectionsort.R)
     - :round_pushpin: *Insertion Sort*  &nbsp; [PDF](Sorting/InsertionSort/insertionsort.pdf)  &emsp; [Source](Sorting/InsertionSort/insertionsort.R)
     - :round_pushpin: *Shell Sort*  &nbsp; [PDF](Sorting/ShellSort/shellsort.pdf)  &emsp; [Source](Sorting/ShellSort/shellsort.R)
