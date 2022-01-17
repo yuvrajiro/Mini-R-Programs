@@ -35,7 +35,7 @@ jump.search <- function(vec, element){
 
     }
 
-    prev_index
+    prev_index-1
 }
 
 #' ### Example
