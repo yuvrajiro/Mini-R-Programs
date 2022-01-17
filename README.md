@@ -69,6 +69,6 @@ This repo is a collection of useful scripts in R that i have made during my time
 
 10. :pushpin: **Linear Algebra**
     - :round_pushpin: *Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/MatrixFactorization/matrixfactorization.pdf)  &emsp; [Source](LinearAlgebra/MatrixFactorization/matrixfactorization.R)
-    - :round_pushpin: *Determinant** &nbsp; [PDF](LinearAlgebra/Determinant/determinant.pdf)  &emsp; [Source](LinearAlgebra/Determinant/determinant.R)
+    - :round_pushpin: *Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
 
 

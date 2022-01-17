@@ -61,15 +61,22 @@ cat("Time taken for the function to run is ", end.time - start.time, " seconds")
 #' The time taken for the function to run is too much and considering that in Machine Learning
 #' we are dealing with large matrices, we will not be able to calculate the determinant of a matrix
 #' in a reasonable time. so I searched through some Linear Algebra books and gets to know for 
-#' cause of this and a solution.
+#' cause of this and a solution.  
+#' 
+#' 
 
 #' ### Let's Talk about the Cause
+#' 
+#' 
 #' The determinant of a matrix is calculated by the trivial formula takes a lot of time to calulate 
 #' and it is not efficient for large matrices. It happens because the number of operations computer 
 #' has to perform is too much. The number of operations computer is of O(n!) where n is the dimension
-#' of the matrix.
-
+#' of the matrix.  
+#' 
+#' 
 #' ### Solution to the problem
+#' 
+#' 
 #' The solution to the problem is to convert the matrix into a lower triangular matrix or upper triangular
 #' matrix. The lower triangular matrix is a matrix where all the elements below the main diagonal are
 #' zero. The upper triangular matrix is a matrix where all the elements above the main diagonal are
