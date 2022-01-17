@@ -1,6 +1,18 @@
 ## Mini R Programs
 
-This repo is a collection of useful scripts in R that i have made during my time at the Banaras Hindu University.This repo is not meant to be a complete R library, but rather a collection of scripts for smaller works in Scratch.
+This repo is a collection of useful scripts in R that I had made during my time at the Banaras Hindu University. This repo is not meant to be a complete R library but rather a collection of scripts for more minor works from Scratch.
+
+## About Me
+
+I am a Research Scholar at the Indian Institute of Technology, Guwahati, in the 
+Department of Mathematics, earlier I had pursued my Masters in Statistics and 
+Computing at Banaras Hindu University at the Centre for Interdisciplinary 
+Mathematical Sciences (CIMS). Currently, my research is focused on the 
+Statistical Machine Learning and its applications.  
+
+:warning: I am looking for collaborators specifically for writing a Probabilistic 
+Programming Language using JAX. If you are interested in this, don't hesitate to get in touch with me. 
+
 
 ## List of scripts
 
