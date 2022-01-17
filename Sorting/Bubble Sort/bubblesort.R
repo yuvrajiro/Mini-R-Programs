@@ -7,7 +7,7 @@
 #'This function implements the bubble sort algorithm. Let us consider a vector of size n. Intentionally we
 #' will take an asort of the vector. The bubble sort algorithm is a simple sorting algorithm that works by repeatedly
 #' swapping the adjacent elements if they are in wrong order.this algorithm is a stable sorting algorithm.
-#' It is average case and O(n^2) time complexity. It was invented by Donald Knuth.
+#' It is average case and O(n^2) time complexity. It was invented by Donald Knuth.  
 
 #' ### Algorithm:
 #' 1. Iterate over the vector
