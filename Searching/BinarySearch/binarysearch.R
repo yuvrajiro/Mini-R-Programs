@@ -1,5 +1,5 @@
 #' ---
-#' title: "Binary Sort in R"
+#' title: "Binary Search in R"
 #' author: "Rahul Goswami"
 #' ---
 
