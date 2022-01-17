@@ -25,7 +25,7 @@
 
 interpolation.search <- function(vec, element){
     # Find the index of the element to be searched
-    index <- floor(length(vec)*(element-vec[1])/(vec[length(vec)]-vec[1]))+1
+    index <- floor(length(vec)*(element-vec[1])/(vec[length(vec)]-vec[1]))
     cat("index: ", index)
     # If the element to be searched is less than the element at the index, search the first half of the array
     if(vec[index] > element){
