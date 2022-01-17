@@ -39,14 +39,18 @@ r.det<-function(x)
 
 
 #' This function looks cool works great on small matrices, let us see an Example
+#' 
+#' 
 #' ### Example
+#' 
 #' Take A matrix
 vector = 1:9 # A vector of size 9, which we will use to create a matrix
 A = matrix(vector,3,3)  # A 3x3 matrix
-deteminant_of_A = r.det(A) # The determinant of A
+determinant_of_A = r.det(A) # The determinant of A
+print(determinant_of_A)
 #' we know the determinant of A is 0, as calculated by the function r.det(A)
 
-#' Now let us see how it works on a bigger matrix, with dimension 20x20
+#' Now let us see how it works on a bigger matrix, with dimension 10x10
 
 Big_Matrix = matrix(sample.int(20, size = 150, replace = TRUE), nrow = 10, ncol = 10)
 
