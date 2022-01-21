@@ -30,7 +30,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
    - :round_pushpin: *Linear Search*  &nbsp; [PDF](Searching/LinearSearch/linearsearch.pdf)  &emsp; [Source](Searching/LinearSearch/linearsearch.R)
 
 7. :pushpin: **Bayesian**
-    - :round_pushpin: *Binomial Beta Model* &nbsp; [PDF](Bayesian/Binomial%20Beta%20Model/binomialbetamodel.pdf)  &emsp; [Source](Bayesian/Binomial%20Beta%20Model/binomialbetamodel.R)
+    - :round_pushpin: *Computing Integral with Monte Carlo*  &nbsp; [PDF](Bayesian/MonteCarlo/montecarlo.pdf)  &emsp; [Source](Bayesian/MonteCarlo/montecarlo.R)
     - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  &emsp; [Source](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.R)
 
 5. :puchpin: **Machine Learning**
