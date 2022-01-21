@@ -36,19 +36,8 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  &emsp; [Source](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.R)
 
 5. :puchpin: **Machine Learning**
-    - :round_pushpin: *Logistic Regression*  &nbsp; [PDF](MachineLearning/LogisticRegression/logisticregression.pdf)  &emsp; [Source](MachineLearning/LogisticRegression/logisticregression.R)
-    - :round_pushpin: *Linear Regression*  &nbsp; [PDF](MachineLearning/LinearRegression/linearregression.pdf)  &emsp; [Source](MachineLearning/LinearRegression/linearregression.R)
-    - :round_pushpin: *K-Nearest Neighbors*  &nbsp; [PDF](MachineLearning/KNearestNeighbors/knearestneighbors.pdf)  &emsp; [Source](MachineLearning/KNearestNeighbors/knearestneighbors.R)
-    - :round_pushpin: *Support Vector Machine*  &nbsp; [PDF](MachineLearning/SupportVectorMachine/supportvectormachine.pdf)  &emsp; [Source](MachineLearning/SupportVectorMachine/supportvectormachine.R)
-    - :round_pushpin: *Naive Bayes*  &nbsp; [PDF](MachineLearning/NaiveBayes/naivebayes.pdf)  &emsp; [Source](MachineLearning/NaiveBayes/naivebayes.R)
-    - :round_pushpin: *Decision Tree*  &nbsp; [PDF](MachineLearning/DecisionTree/decisiontree.pdf)  &emsp; [Source](MachineLearning/DecisionTree/decisiontree.R)
-    - :round_pushpin: *Random Forest*  &nbsp; [PDF](MachineLearning/RandomForest/randomforest.pdf)  &emsp; [Source](MachineLearning/RandomForest/randomforest.R)
-    - :round_pushpin: *K-Means Clustering*  &nbsp; [PDF](MachineLearning/KMeansClustering/kmeansclustering.pdf)  &emsp; [Source](MachineLearning/KMeansClustering/kmeansclustering.R)
-    - :round_pushpin: *K-Medoids Clustering*  &nbsp; [PDF](MachineLearning/KMedoidsClustering/kmedoidsclustering.pdf)  &emsp; [Source](MachineLearning/KMedoidsClustering/kmedoidsclustering.R)
-    - :round_pushpin: *Hierarchical Clustering*  &nbsp; [PDF](MachineLearning/HierarchicalClustering/hierarchicalclustering.pdf)  &emsp; [Source](MachineLearning/HierarchicalClustering/hierarchicalclustering.R)
-    - :round_pushpin: *K-Means++ Clustering*  &nbsp; [PDF](MachineLearning/KMeansPlusPlusClustering/kmeansplusplusclustering.pdf)  &emsp; [Source](MachineLearning/KMeansPlusPlusClustering/kmeansplusplusclustering.R)
-    - :round_pushpin: *K-Medoids++ Clustering*  &nbsp; [PDF](MachineLearning/KMedoidsPlusPlusClustering/kmedoidsplusplusclustering.pdf)  &emsp; [Source](MachineLearning/KMedoidsPlusPlusClustering/kmedoidsplusplusclustering.R)
-    - :round_pushpin: *Hierarchical Clustering++*  &nbsp; [PDF](MachineLearning/HierarchicalClusteringPlusPlus/hierarchicalclusteringplusplus.pdf)  &emsp; [Source](MachineLearning/HierarchicalClusteringPlusPlus/hierarchicalclusteringplusplus.R)
+    - :round_pushpin: *Linear Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Linear%20Regression/linearregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Linear%20Regression/linearregression.R)
+
 
 8. :pushpin: **Advanced Statistical Algorithm**
 
