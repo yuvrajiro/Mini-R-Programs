@@ -182,28 +182,39 @@ distribution and the candidate density.It will be at maximum at
 \(\theta = 1\) thus k = \(\sqrt{2e / \pi} \approx 1.32\)
 
 Then steps for generating samples from the posterior distribution are as
-follows 1. Take a sample from exponential distribution with mean \(1\)
-and a uniform random variable U 2. If
-\(U \leq \frac{\frac{1}{\sqrt{2\pi}}e^{-\frac{\theta^2}{2}}}{\sqrt{2e/\pi} e^{-\theta}} \ i.e \ U \leq e^{-(1 -\theta)^2/2}\)
-then accept the sample 3. Generate another uniform random variable
-\(U\), if U is less than 0.5 then multiply the sample by -1
+follows:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Take a sample from exponential distribution with mean \(1\) and a
+  uniform random variable U
+\item
+  If
+  \(U \leq \frac{\frac{1}{\sqrt{2\pi}}e^{-\frac{\theta^2}{2}}}{\sqrt{2e/\pi} e^{-\theta}} \ i.e \ U \leq e^{-(1 -\theta)^2/2}\)
+  then accept the sample
+\item
+  Generate another uniform random variable \(U\), if U is less than 0.5
+  then multiply the sample by -1
+\end{enumerate}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{nsample }\OtherTok{=} \DecValTok{10000}
-\NormalTok{sample }\OtherTok{=} \FunctionTok{c}\NormalTok{()}
-\NormalTok{count }\OtherTok{=} \DecValTok{0}
-\ControlFlowTok{while}\NormalTok{(}\FunctionTok{length}\NormalTok{(sample) }\SpecialCharTok{\textless{}}\NormalTok{ nsample)\{}
-\NormalTok{  U }\OtherTok{=} \FunctionTok{runif}\NormalTok{(}\DecValTok{1}\NormalTok{)}
-\NormalTok{  count }\OtherTok{=}\NormalTok{ count }\SpecialCharTok{+} \DecValTok{1}
-\NormalTok{  theta }\OtherTok{=} \FunctionTok{rexp}\NormalTok{(}\DecValTok{1}\NormalTok{)}
-\NormalTok{  U2 }\OtherTok{=} \FunctionTok{runif}\NormalTok{(}\DecValTok{1}\NormalTok{)}
-  \ControlFlowTok{if}\NormalTok{(U }\SpecialCharTok{\textless{}=} \FunctionTok{exp}\NormalTok{((}\SpecialCharTok{{-}}\NormalTok{(}\DecValTok{1}\SpecialCharTok{{-}}\NormalTok{theta)}\SpecialCharTok{\^{}}\DecValTok{2}\NormalTok{)}\SpecialCharTok{/}\DecValTok{2}\NormalTok{))\{ }
-    \ControlFlowTok{if}\NormalTok{(U2 }\SpecialCharTok{\textless{}=} \FloatTok{0.5}\NormalTok{)\{}
-\NormalTok{      theta }\OtherTok{=} \SpecialCharTok{{-}}\NormalTok{theta}
+\NormalTok{nsample }\OtherTok{=} \DecValTok{10000}                     \CommentTok{\# number of samples}
+\NormalTok{sample }\OtherTok{=} \FunctionTok{c}\NormalTok{()                        }\CommentTok{\# empty vector to store samples}
+\NormalTok{count }\OtherTok{=} \DecValTok{0}                           \CommentTok{\# count of samples accepted}
+\ControlFlowTok{while}\NormalTok{(}\FunctionTok{length}\NormalTok{(sample) }\SpecialCharTok{\textless{}}\NormalTok{ nsample)\{    }\CommentTok{\# loop until we have nsample samples}
+\NormalTok{  U }\OtherTok{=} \FunctionTok{runif}\NormalTok{(}\DecValTok{1}\NormalTok{)                      }\CommentTok{\# generate a uniform random variable}
+\NormalTok{  count }\OtherTok{=}\NormalTok{ count }\SpecialCharTok{+} \DecValTok{1}                 \CommentTok{\# increment count}
+\NormalTok{  theta }\OtherTok{=} \FunctionTok{rexp}\NormalTok{(}\DecValTok{1}\NormalTok{)                   }\CommentTok{\# generate a random variable from exponential distribution}
+\NormalTok{  U2 }\OtherTok{=} \FunctionTok{runif}\NormalTok{(}\DecValTok{1}\NormalTok{)                     }\CommentTok{\# generate a uniform random variable}
+  \ControlFlowTok{if}\NormalTok{(U }\SpecialCharTok{\textless{}=} \FunctionTok{exp}\NormalTok{((}\SpecialCharTok{{-}}\NormalTok{(}\DecValTok{1}\SpecialCharTok{{-}}\NormalTok{theta)}\SpecialCharTok{\^{}}\DecValTok{2}\NormalTok{)}\SpecialCharTok{/}\DecValTok{2}\NormalTok{))\{ }\CommentTok{\# if U is less than the ratio of the posterior distribution and the candidate density}
+    \ControlFlowTok{if}\NormalTok{(U2 }\SpecialCharTok{\textless{}=} \FloatTok{0.5}\NormalTok{)\{                  }\CommentTok{\# if U2 is less than 0.5 then multiply the sample by {-}1}
+\NormalTok{      theta }\OtherTok{=} \SpecialCharTok{{-}}\NormalTok{theta                }\CommentTok{\# multiply the sample by {-}1}
 \NormalTok{    \}}
     
-\NormalTok{    sample }\OtherTok{=} \FunctionTok{c}\NormalTok{(sample, theta)}
+\NormalTok{    sample }\OtherTok{=} \FunctionTok{c}\NormalTok{(sample, theta)       }\CommentTok{\# add the sample to the vector}
 \NormalTok{  \}}
 \NormalTok{\}}
 \FunctionTok{cat}\NormalTok{(}\StringTok{"Acceptance Rate: "}\NormalTok{, count}\SpecialCharTok{/}\NormalTok{nsample)}
@@ -211,7 +222,7 @@ then accept the sample 3. Generate another uniform random variable
 \end{Shaded}
 
 \begin{verbatim}
-## Acceptance Rate:  1.323
+## Acceptance Rate:  1.3285
 \end{verbatim}
 
 \begin{Shaded}

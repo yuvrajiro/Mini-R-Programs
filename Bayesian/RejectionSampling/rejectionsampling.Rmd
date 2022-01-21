@@ -49,7 +49,9 @@ Then
 $\frac{\pi(\theta|x)}{p(\theta)}$ is the ratio of the posterior distribution and the candidate density.It will be at 
 maximum at $\theta = 1$ thus k = $\sqrt{2e / \pi} \approx 1.32$ 
 
-Then steps for generating samples from the posterior distribution are as follows
+Then steps for generating samples from the posterior distribution are as follows:
+
+
 1. Take a sample from exponential distribution with mean $1$ and a uniform random variable U
 2. If $U \leq \frac{\frac{1}{\sqrt{2\pi}}e^{-\frac{\theta^2}{2}}}{\sqrt{2e/\pi} e^{-\theta}} \ i.e \ U \leq e^{-(1 -\theta)^2/2}$ then accept the sample
 3. Generate another uniform random variable $U$, if U is less than 0.5 then multiply the sample by -1
@@ -57,20 +59,20 @@ Then steps for generating samples from the posterior distribution are as follows
 
 
 ```{r RejectionSampling}
-nsample = 10000
-sample = c()
-count = 0
-while(length(sample) < nsample){
-  U = runif(1)
-  count = count + 1
-  theta = rexp(1)
-  U2 = runif(1)
-  if(U <= exp((-(1-theta)^2)/2)){ 
-    if(U2 <= 0.5){
-      theta = -theta
+nsample = 10000                     # number of samples
+sample = c()                        # empty vector to store samples
+count = 0                           # count of samples accepted
+while(length(sample) < nsample){    # loop until we have nsample samples
+  U = runif(1)                      # generate a uniform random variable
+  count = count + 1                 # increment count
+  theta = rexp(1)                   # generate a random variable from exponential distribution
+  U2 = runif(1)                     # generate a uniform random variable
+  if(U <= exp((-(1-theta)^2)/2)){ # if U is less than the ratio of the posterior distribution and the candidate density
+    if(U2 <= 0.5){                  # if U2 is less than 0.5 then multiply the sample by -1
+      theta = -theta                # multiply the sample by -1
     }
     
-    sample = c(sample, theta)
+    sample = c(sample, theta)       # add the sample to the vector
   }
 }
 cat("Acceptance Rate: ", count/nsample)
