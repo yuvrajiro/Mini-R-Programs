@@ -1,0 +1,44 @@
+---
+title: "Computing Integrals Monte Carlo Way"
+author: "Rahul Goswami"
+date: "18/01/2022"
+output: pdf_document
+keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+
+Let us we have $\theta$ with posterior density $\pi(\theta|x)$,then the posterior mean is given by
+$$  \mu(\theta) = \int_{-\infty}^{\infty} \pi(\theta|x) \mathrm{d}\theta $$
+And the posterior of a particular function $h(\theta)$ is given by
+$$  E(h(\theta)|x) = \int_{-\infty}^{\infty} \pi(\theta|x) h(\theta) \mathrm{d}\theta $$
+
+Then through the Monte Carlo method we can estimate the posterior mean of $E(h(\theta)|x)$ by
+by taking $N$ samples from the posterior distribution $\pi(\theta|x)$. And the posterior mean can be estimated by
+
+$$  \bar{h} = \frac{1}{N} \sum_{i=1}^N h(\theta_i) $$  
+
+### The Monte Carlo Method
+
+Suppose we need to compute the integral 
+
+$$
+\int_{0}^{1} 12x^3(1-x)^2 \mathrm{d}x
+$$
+
+If we do integral manually we will get 0.25. But if we use the Monte Carlo method, we can get the same answer by taking $N$ samples from the posterior distribution 
+If we look closely its a beta distibution with parameter $\alpha = 2$ and $\beta = 3$. and it is a second moment of the beta distribution.
+that mean $h(x) = x^2$. so we have to take $N$ samples from the beta distribution with parameter $\alpha = 2$ and $\beta = 3$.and square them.
+and at last take mean of them
+
+```{r}
+sample = rbeta(n = 100000, 2 , 3) # sample from beta distribution with parameters 2 and 3
+sample_squared = sample^2
+mean = mean(sample_squared)
+standard_error = sd(sample_squared) / sqrt(100000)
+cat("Estimate of the integral is ", mean, " with standard error ", standard_error, sep = "")
+```

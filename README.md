@@ -28,20 +28,10 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
    - :round_pushpin: *Interpolation Search*  &nbsp; [PDF](Searching/InterpolationSearch/interpolationsearch.pdf)  &emsp; [Source](Searching/InterpolationSearch/interpolationsearch.R)
    - :round_pushpin: *Jump Search*  &nbsp; [PDF](Searching/JumpSearch/jumpsearch.pdf)  &emsp; [Source](Searching/JumpSearch/jumpsearch.R)
    - :round_pushpin: *Linear Search*  &nbsp; [PDF](Searching/LinearSearch/linearsearch.pdf)  &emsp; [Source](Searching/LinearSearch/linearsearch.R)
-3. :pushpin: **Graphs**
-   - :round_pushpin: *Dijkstra's Algorithm*  &nbsp; [PDF](Graphs/Dijkstra/dijkstra.pdf)  &emsp; [Source](Graphs/Dijkstra/dijkstra.R)
-    - :round_pushpin: *Prim's Algorithm*  &nbsp; [PDF](Graphs/Prims/prims.pdf)  &emsp; [Source](Graphs/Prims/prims.R)
-    - :round_pushpin: *Kruskal's Algorithm*  &nbsp; [PDF](Graphs/Kruskal/kruskal.pdf)  &emsp; [Source](Graphs/Kruskal/kruskal.R)
-    - :round_pushpin: *Bellman-Ford's Algorithm*  &nbsp; [PDF](Graphs/BellmanFord/bellmanford.pdf)  &emsp; [Source](Graphs/BellmanFord/bellmanford.R)
-    - :round_pushpin: *Floyd-Warshall's Algorithm*  &nbsp; [PDF](Graphs/FloydWarshall/floydwarshall.pdf)  &emsp; [Source](Graphs/FloydWarshall/floydwarshall.R)
-    - :round_pushpin: *Dijkstra's Shortest Path Algorithm*  &nbsp; [PDF](Graphs/DijkstraShortestPath/dijkstrashortestpath.pdf)  &emsp; [Source](Graphs/DijkstraShortestPath/dijkstrashortestpath.R)
-4. :pushpin: **Mathematical**
-   - :round_pushpin: *Prime Factorization*  &nbsp; [PDF](Mathematical/PrimeFactorization/primefactorization.pdf)  &emsp; [Source](Mathematical/PrimeFactorization/primefactorization.R)
-   - :round_pushpin: *Prime Numbers*  &nbsp; [PDF](Mathematical/PrimeNumbers/primenumbers.pdf)  &emsp; [Source](Mathematical/PrimeNumbers/primenumbers.R)
-   - :round_pushpin: *Fibonacci Numbers*  &nbsp; [PDF](Mathematical/FibonacciNumbers/fibonaccinumbers.pdf)  &emsp; [Source](Mathematical/FibonacciNumbers/fibonaccinumbers.R)
-   - :round_pushpin: *Factorial*  &nbsp; [PDF](Mathematical/Factorial/factorial.pdf)  &emsp; [Source](Mathematical/Factorial/factorial.R)
-   - :round_pushpin: *Combinations*  &nbsp; [PDF](Mathematical/Combinations/combinations.pdf)  &emsp; [Source](Mathematical/Combinations/combinations.R)
-   - :round_pushpin: *Permutations*  &nbsp; [PDF](Mathematical/Permutations/permutations.pdf)  &emsp; [Source](Mathematical/Permutations/permutations.R)
+
+7. :pushpin: **Bayesian**
+    - :round_pushpin: *Binomial Beta Model* &nbsp; [PDF](Bayesian/Binomial%20Beta%20Model/binomialbetamodel.pdf)  &emsp; [Source](Bayesian/Binomial%20Beta%20Model/binomialbetamodel.R)
+    - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  &emsp; [Source](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.R)
 
 5. :puchpin: **Machine Learning**
     - :round_pushpin: *Logistic Regression*  &nbsp; [PDF](MachineLearning/LogisticRegression/logisticregression.pdf)  &emsp; [Source](MachineLearning/LogisticRegression/logisticregression.R)
@@ -58,34 +48,12 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *K-Medoids++ Clustering*  &nbsp; [PDF](MachineLearning/KMedoidsPlusPlusClustering/kmedoidsplusplusclustering.pdf)  &emsp; [Source](MachineLearning/KMedoidsPlusPlusClustering/kmedoidsplusplusclustering.R)
     - :round_pushpin: *Hierarchical Clustering++*  &nbsp; [PDF](MachineLearning/HierarchicalClusteringPlusPlus/hierarchicalclusteringplusplus.pdf)  &emsp; [Source](MachineLearning/HierarchicalClusteringPlusPlus/hierarchicalclusteringplusplus.R)
 
-6. :pushpin: **Data Mining**
-    - :round_pushpin: *Apriori Algorithm*  &nbsp; [PDF](DataMining/Apriori/apriori.pdf)  &emsp; [Source](DataMining/Apriori/apriori.R)
-    - :round_pushpin: *FP-Growth Algorithm*  &nbsp; [PDF](DataMining/FPGrowth/fpgrowth.pdf)  &emsp; [Source](DataMining/FPGrowth/fpgrowth.R)
-    - :round_pushpin: *Association Rule Mining*  &nbsp; [PDF](DataMining/AssociationRuleMining/associationrulemining.pdf)  &emsp; [Source](DataMining/AssociationRuleMining/associationrulemining.R)
-    - :round_pushpin: *Clustering*  &nbsp; [PDF](DataMining/Clustering/clustering.pdf)  &emsp; [Source](DataMining/Clustering/clustering.R)
-    - :round_pushpin: *Data Visualization*  &nbsp; [PDF](DataMining/DataVisualization/datavisualization.pdf)  &emsp; [Source](DataMining/DataVisualization/datavisualization.R)
-    - :round_pushpin: *Data Mining*  &nbsp; [PDF](DataMining/DataMining/datamining.pdf)  &emsp; [Source](DataMining/DataMining/datamining.R)
-    - :round_pushpin: *Data Mining Algorithms*  &nbsp; [PDF](DataMining/DataMiningAlgorithms/dataminingalgorithms.pdf)  &emsp; [Source](DataMining/DataMiningAlgorithms/dataminingalgorithms.R)
-    - :round_pushpin: *Data Mining Applications*  &nbsp; [PDF](DataMining/DataMiningApplications/dataminingapplications.pdf)  &emsp; [Source](DataMining/DataMiningApplications/dataminingapplications.R)
-
-7. :pushpin: **Bayesian**
-    - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  &emsp; [Source](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.R)
-
-
 8. :pushpin: **Advanced Statistical Algorithm**
-
-9. :pushpin: **Advanced Machine Learning**
-    - :round_pushpin: *Neural Network*  &nbsp; [PDF](AdvancedMachineLearning/NeuralNetwork/neuralnetwork.pdf)  &emsp; [Source](AdvancedMachineLearning/NeuralNetwork/neuralnetwork.R)
 
 10. :pushpin: **Linear Algebra**
     - :round_pushpin: *Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/MatrixFactorization/matrixfactorization.pdf)  &emsp; [Source](LinearAlgebra/MatrixFactorization/matrixfactorization.R)
-    - :round_pushpin: *Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
-
-11. :pushpin: **Deep Learning**
-    - :round_pushpin: *Neural Network*  &nbsp; [PDF](DeepLearning/NeuralNetwork/neuralnetwork.pdf)  &emsp; [Source](DeepLearning/NeuralNetwork/neuralnetwork.R)
-    - :round_pushpin: *Auto Encoder*  &nbsp; [PDF](DeepLearning/AutoEncoder/autoencoder.pdf)  &emsp; [Source](DeepLearning/AutoEncoder/autoencoder.R)
-    - :round_pushpin: *Convolutional Neural Network*  &nbsp; [PDF](DeepLearning/ConvolutionalNeuralNetwork/convolutionalneuralnetwork.pdf)  &emsp; [Source](DeepLearning/ConvolutionalNeuralNetwork/convolutionalneuralnetwork.R)
-    - :round_pushpin: *Recurrent Neural Network*  &nbsp; [PDF](DeepLearning/RecurrentNeuralNetwork/recurrentneuralnetwork.pdf)  &emsp; [Source](DeepLearning/RecurrentNeuralNetwork/recurrentneuralnetwork.R)
+    - :round_pushpin: **Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
+    - :round_pushpin: **Inverse** &nbsp; [PDF](Linear%20Algebra/Inverse/inverse.pdf)  &emsp; [Source](Linear%20Algebra/Inverse/inverse.R)
     
 
 
