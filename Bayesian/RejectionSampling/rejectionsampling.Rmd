@@ -79,4 +79,4 @@ cat("Acceptance Rate: ", count/nsample)
 plot(density(sample))
 ```
 
-
+> Checkout my Blog on Rejection Sampling [Here](www.iroblack.com)
