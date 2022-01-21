@@ -1,5 +1,5 @@
 ---
-title: "Computing Integrals Monte Carlo Way"
+title: "Rejection Sampling"
 author: "Rahul Goswami"
 date: "18/01/2022"
 output: pdf_document
