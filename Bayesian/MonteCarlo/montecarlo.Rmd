@@ -30,7 +30,7 @@ $$
 \int_{0}^{1} 12x^3(1-x)^2 \mathrm{d}x
 $$
 
-If we do integral manually we will get 0.25. But if we use the Monte Carlo method, we can get the same answer by taking $N$ samples from the posterior distribution 
+If we do integral manually we will get 0.2. But if we use the Monte Carlo method, we can get the same answer by taking $N$ samples from the posterior distribution 
 If we look closely its a beta distibution with parameter $\alpha = 2$ and $\beta = 3$. and it is a second moment of the beta distribution.
 that mean $h(x) = x^2$. so we have to take $N$ samples from the beta distribution with parameter $\alpha = 2$ and $\beta = 3$.and square them.
 and at last take mean of them

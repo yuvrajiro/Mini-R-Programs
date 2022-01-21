@@ -1,0 +1,80 @@
+---
+title: "Computing Integrals Monte Carlo Way"
+author: "Rahul Goswami"
+date: "18/01/2022"
+output: pdf_document
+keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Rejection Sampling Method
+
+Its always not easy to withdraw samples from posterior $\pi(\theta|x)$ distribution.Most of the time 
+are not familiar with the functional form of the posterior distribution. 
+
+Supoose we wanna take a sample from the posterior distribution $\pi(\theta|x)$
+Then we will find another probability distribution $p(\theta)$ which have the following properties
+
+1. Easy to withdraw samples from
+2. Resembles the posterior distribution
+3. For all parameter $\theta$ and a constant $k$ , $\pi(\theta|x) \leq k  p(\theta)$
+
+### Algorithm
+
+1. Take a sample from the from the distribution $p(\theta)$ and a Uniform Random Variable $U$
+2. If $U < \frac{\pi(\theta|x)}{k \cdot p(\theta)}$ then accept the sample
+3. If $U > \frac{\pi(\theta|x)}{k \cdot p(\theta)}$ then reject the sample
+
+
+The Performance of the Rejection Sampling Method is measured by Acceptance Rate.
+
+### Example
+
+Suppose we want to withdraw samples from normal distribution with mean $\mu$ and variance $\sigma$,which equivalent to get samples from standard Normal distribution, because we just have to do a simple linear transformation to get a distribution with mean $\mu$ and variance $\sigma$.So we will be using the standard Normal distribution
+
+Now we are taking proposaldensity or in some literature mentioned as candidate density $p(\theta)$ as an exponential distribution with mean $1$, while we know that exponential random variable is always positive and hence we will be taking the absolute value of the Standard Normal random variable, and then multiply iy by -1 by generating a uniform random variable $U$.Whenever $U$ is less than 0.5
+
+
+$$
+p(\theta) = e^{-\theta}  \\
+\pi(\theta|x) = \frac{2}{2\pi}  e^{-\frac{1}{2}(\theta)^2}1_{x \geq0}
+$$
+
+Then
+
+
+$\frac{\pi(\theta|x)}{p(\theta)}$ is the ratio of the posterior distribution and the candidate density.It will be at 
+maximum at $\theta = 1$ thus k = $\sqrt{2e / \pi} \approx 1.32$ 
+
+Then steps for generating samples from the posterior distribution are as follows
+1. Take a sample from exponential distribution with mean $1$ and a uniform random variable U
+2. If $U \leq \frac{\frac{1}{\sqrt{2\pi}}e^{-\frac{\theta^2}{2}}}{\sqrt{2e/\pi} e^{-\theta}} \ i.e \ U \leq e^{-(1 -\theta)^2/2}$ then accept the sample
+3. Generate another uniform random variable $U$, if U is less than 0.5 then multiply the sample by -1
+
+
+
+```{r RejectionSampling}
+nsample = 10000
+sample = c()
+count = 0
+while(length(sample) < nsample){
+  U = runif(1)
+  count = count + 1
+  theta = rexp(1)
+  U2 = runif(1)
+  if(U <= exp((-(1-theta)^2)/2)){ 
+    if(U2 <= 0.5){
+      theta = -theta
+    }
+    
+    sample = c(sample, theta)
+  }
+}
+cat("Acceptance Rate: ", count/nsample)
+plot(density(sample))
+```
+
+
