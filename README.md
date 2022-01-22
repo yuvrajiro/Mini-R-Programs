@@ -37,7 +37,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 5. :puchpin: **Machine Learning**
     - :round_pushpin: *Linear Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Linear%20Regression/linearregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Linear%20Regression/linearregression.R)
-
+    - :round_pushpin: *Ridge Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Ridge%20Regression/ridgeregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Ridge%20Regression/ridgeregression.R)
 
 8. :pushpin: **Advanced Statistical Algorithm**
 
