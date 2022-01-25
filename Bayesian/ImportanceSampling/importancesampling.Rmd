@@ -1,0 +1,32 @@
+---
+title: "Importance Sampling"
+author: "Rahul Goswami"
+date: "18/01/2022"
+output: pdf_document
+keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Importance Sampling
+
+Importance sampling is done by take weighted mean as posterior mean , the weight can be derived as follows
+$$
+E_{\pi(\theta | x)}(g(\theta)) = \frac{\int g(\theta)\pi(\theta)f(x|\theta)d\theta}{\int \pi(\theta)f(x|\theta)d\theta}
+$$
+
+Suppose we have a density p from which simulating sample is easy then, we can write
+$$
+E_{\pi(\theta | x)}(g(\theta)) = \frac{\int g(\theta)\frac{\pi(\theta)f(x|\theta)}{p(\theta)}p(\theta)d\theta}{\int \frac{\pi(\theta)f(x|\theta)}{p(\theta)}p(\theta)d\theta}
+$$
+
+If $\theta_1,\theta_2 .... $ are simulated sampe from p,Then the importance sampling estimate of posterior mean is
+$$
+\frac{\sum_{i} g(\theta_i)w(\theta_i)}{\sum_{i} w(\theta_i)}
+$$
+
+where $w(\theta_i) = \frac{\pi(\theta)f(x|\theta)}{p(\theta)}$
+
+

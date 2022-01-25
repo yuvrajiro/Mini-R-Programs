@@ -16,6 +16,8 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 ## List of scripts
 
+### Credit Card Fraud Detection using Random Forest using Julia from Scratch  [PDF](Credit%20Card%20Fraud%20Detection%20Using%20Random%20Forest.pdf)
+
 1. :pushpin: **Sorting**  
    - :round_pushpin: *Quick Sort*  &nbsp; [PDF](Sorting/QuickSort/quicksort.pdf)  &emsp; [Source](Sorting/QuickSort/quicksort.R)  
    - :round_pushpin: *Merge Sort*  &nbsp; [PDF](Sorting/Merge%20Sort/mergesort.pdf)  &emsp; [Source](Sorting/Merge%20Sort/mergesort.R)
@@ -45,6 +47,8 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/MatrixFactorization/matrixfactorization.pdf)  &emsp; [Source](LinearAlgebra/MatrixFactorization/matrixfactorization.R)
     - :round_pushpin: **Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
     - :round_pushpin: **Inverse** &nbsp; [PDF](Linear%20Algebra/Inverse/inverse.pdf)  &emsp; [Source](Linear%20Algebra/Inverse/inverse.R)
+
+
     
 
 

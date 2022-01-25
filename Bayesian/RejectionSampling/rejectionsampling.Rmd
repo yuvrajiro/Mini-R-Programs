@@ -25,7 +25,7 @@ Then we will find another probability distribution $p(\theta)$ which have the fo
 ### Algorithm
 
 1. Take a sample from the from the distribution $p(\theta)$ and a Uniform Random Variable $U$
-2. If $U < \frac{\pi(\theta|x)}{k \cdot p(\theta)}$ then accept the sample
+2. If $U \leq \frac{\pi(\theta|x)}{k \cdot p(\theta)}$ then accept the sample
 3. If $U > \frac{\pi(\theta|x)}{k \cdot p(\theta)}$ then reject the sample
 
 
