@@ -48,6 +48,8 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: **Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
     - :round_pushpin: **Inverse** &nbsp; [PDF](Linear%20Algebra/Inverse/inverse.pdf)  &emsp; [Source](Linear%20Algebra/Inverse/inverse.R)
 
+11. :pushpin: **Mathematics**
+    - :round_pushpin: *Bisection*  &nbsp; [PDF](Mathematics/bisection.pdf)  &emsp; [Source](Mathematics/bisection.R)
 
     
 
