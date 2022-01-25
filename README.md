@@ -47,9 +47,11 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/MatrixFactorization/matrixfactorization.pdf)  &emsp; [Source](LinearAlgebra/MatrixFactorization/matrixfactorization.R)
     - :round_pushpin: **Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
     - :round_pushpin: **Inverse** &nbsp; [PDF](Linear%20Algebra/Inverse/inverse.pdf)  &emsp; [Source](Linear%20Algebra/Inverse/inverse.R)
+    - :round_pushpin: **Eigenvalues and Eigenvectors using Power Maethod** &nbsp; [PDF](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/powermethod.pdf)  &emsp; [Source](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/powermethod.R)
 
 11. :pushpin: **Mathematics**
     - :round_pushpin: *Bisection*  &nbsp; [PDF](Mathematics/bisection.pdf)  &emsp; [Source](Mathematics/bisection.R)
+    
 
     
 
