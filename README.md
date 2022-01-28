@@ -33,13 +33,13 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 7. :pushpin: **Bayesian**
     - :round_pushpin: *Computing Integral with Monte Carlo*  &nbsp; [PDF](Bayesian/MonteCarlo/montecarlo.pdf)  &emsp; [Source](Bayesian/MonteCarlo/montecarlo.Rmd)
-    - :round_pushpin: *Computing Integral with Adaptive Monte Carlo*  &nbsp; [PDF](Bayesian/AdaptiveMonteCarlo/adaptivemontecarlo.pdf)  &emsp; [Source](Bayesian/AdaptiveMonteCarlo/adaptivemontecarlo.Rmd)
     - :round_pushpin: *Rejection Sampling* &nbsp; [PDF](Bayesian/RejectionSampling/rejectionsampling.pdf)  &emsp; [Source](Bayesian/RejectionSampling/rejectionsampling.Rmd)
     - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  &emsp; [Source](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.R)
 
-5. :puchpin: **Machine Learning**
+5. :pushpin: **Machine Learning**
     - :round_pushpin: *Linear Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Linear%20Regression/linearregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Linear%20Regression/linearregression.R)
     - :round_pushpin: *Ridge Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Ridge%20Regression/ridgeregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Ridge%20Regression/ridgeregression.R)
+
 
 8. :pushpin: **Advanced Statistical Algorithm**
 
@@ -47,10 +47,10 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *LU Matrix Factorization*  &nbsp; [PDF](Linear%20Algebra/LU/lu.pdf)  &emsp; [Source](LinearAlgebra/LU/lu.R)
     - :round_pushpin: *RREF using Gauss Elimination*  &nbsp; [PDF](Linear%20Algebra/RREF/RREF.pdf)  &emsp; [Source](LinearAlgebra/RREF/RREF.R)
     - :round_pushpin: *Cholesky Decomposition*  &nbsp; [PDF](Linear%20Algebra/Cholesky/cholesky.pdf)  &emsp; [Source](LinearAlgebra/Cholesky/cholesky.R)
-    - :round_pushpin: *QR Decomposition*  &nbsp; [PDF](Linear%20Algebra/QR/qr.pdf)  &emsp; [Source](LinearAlgebra/QR/qr.R)
     - :round_pushpin: **Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
     - :round_pushpin: **Inverse** &nbsp; [PDF](Linear%20Algebra/Inverse/inverse.pdf)  &emsp; [Source](Linear%20Algebra/Inverse/inverse.R)
     - :round_pushpin: **Eigenvalues and Eigenvectors using Power Maethod** &nbsp; [PDF](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/powermethod.pdf)  &emsp; [Source](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/powermethod.R)
+    - :round_pushpin: **Eigenvalue and Eigenvector using JACOBI method** &nbsp; [PDF](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/jacobimethod.pdf)  
 
 11. :pushpin: **Mathematics**
     - :round_pushpin: *Bisection*  &nbsp; [PDF](Mathematics/bisection.pdf)  &emsp; [Source](Mathematics/bisection.R)
