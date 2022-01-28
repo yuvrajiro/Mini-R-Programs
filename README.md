@@ -44,10 +44,10 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 8. :pushpin: **Advanced Statistical Algorithm**
 
 10. :pushpin: **Linear Algebra**
-    - :round_pushpin: *LU Matrix Factorization*  &nbsp; [PDF](LinearAlgebra/LU/lu.pdf)  &emsp; [Source](LinearAlgebra/LU/lu.R)
-    - :round_pushpin: *RREF using Gauss Elimination*  &nbsp; [PDF](LinearAlgebra/RREF/RREF.pdf)  &emsp; [Source](LinearAlgebra/RREF/RREF.R)
-    - :round_pushpin: *Cholesky Decomposition*  &nbsp; [PDF](LinearAlgebra/Cholesky/cholesky.pdf)  &emsp; [Source](LinearAlgebra/Cholesky/cholesky.R)
-    - :round_pushpin: *QR Decomposition*  &nbsp; [PDF](LinearAlgebra/QR/qr.pdf)  &emsp; [Source](LinearAlgebra/QR/qr.R)
+    - :round_pushpin: *LU Matrix Factorization*  &nbsp; [PDF](Linear%20Algebra/LU/lu.pdf)  &emsp; [Source](LinearAlgebra/LU/lu.R)
+    - :round_pushpin: *RREF using Gauss Elimination*  &nbsp; [PDF](Linear%20Algebra/RREF/RREF.pdf)  &emsp; [Source](LinearAlgebra/RREF/RREF.R)
+    - :round_pushpin: *Cholesky Decomposition*  &nbsp; [PDF](Linear%20Algebra/Cholesky/cholesky.pdf)  &emsp; [Source](LinearAlgebra/Cholesky/cholesky.R)
+    - :round_pushpin: *QR Decomposition*  &nbsp; [PDF](Linear%20Algebra/QR/qr.pdf)  &emsp; [Source](LinearAlgebra/QR/qr.R)
     - :round_pushpin: **Determinant** &nbsp; [PDF](Linear%20Algebra/Determinant/determinant.pdf)  &emsp; [Source](Linear%20Algebra/Determinant/determinant.R)
     - :round_pushpin: **Inverse** &nbsp; [PDF](Linear%20Algebra/Inverse/inverse.pdf)  &emsp; [Source](Linear%20Algebra/Inverse/inverse.R)
     - :round_pushpin: **Eigenvalues and Eigenvectors using Power Maethod** &nbsp; [PDF](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/powermethod.pdf)  &emsp; [Source](Linear%20Algebra/Eigenvalues%20and%20Eigenvectors/powermethod.R)
