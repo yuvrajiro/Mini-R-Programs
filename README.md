@@ -16,7 +16,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 ## List of scripts
 
-### *Credit Card Fraud Detection using Random Forest using Julia from Scratch*  [PDF](Credit%20Card%20Fraud%20Detection%20Using%20Random%20Forest.pdf)
+
 
 1. :pushpin: **Sorting**  
    - :round_pushpin: *Quick Sort*  &nbsp; [PDF](Sorting/QuickSort/quicksort.pdf)  &emsp; [Source](Sorting/QuickSort/quicksort.R)  
@@ -34,14 +34,21 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 7. :pushpin: **Bayesian**
     - :round_pushpin: *Computing Integral with Monte Carlo*  &nbsp; [PDF](Bayesian/MonteCarlo/montecarlo.pdf)  &emsp; [Source](Bayesian/MonteCarlo/montecarlo.Rmd)
     - :round_pushpin: *Rejection Sampling* &nbsp; [PDF](Bayesian/RejectionSampling/rejectionsampling.pdf)  &emsp; [Source](Bayesian/RejectionSampling/rejectionsampling.Rmd)
-    - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  &emsp; [Source](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.R)
+    - :round_pushpin: *Highest Posterior density Interval*  &nbsp; [PDF](Bayesian/HighestPosteriorDensityInterval/highestposteriordensityinterval.pdf)  
 
 5. :pushpin: **Machine Learning**
     - :round_pushpin: *Linear Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Linear%20Regression/linearregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Linear%20Regression/linearregression.R)
     - :round_pushpin: *Ridge Regression*  &nbsp; [PDF](Machine%20Learning/Regression/Ridge%20Regression/ridgeregression.pdf) &emsp; [Source](Machine%20Learning/Regression/Ridge%20Regression/ridgeregression.R)
 
 
-8. :pushpin: **Advanced Statistical Algorithm**
+8. :pushpin: **Statistical Algorithm**
+    - :round_pushpin: *Naive Density Estimate*  &nbsp; [PDF](Statistics\naive.pdf)
+    - :round_pushpin: *Kernel Density Estimate*  &nbsp; [PDF](Statistics\kernel.pdf)
+    - :round_pushpin: *GQ,BPG,Whites and KB Test*  &nbsp; [PDF](Statistics\gq.pdf)
+    - :round_pushpin: *Dublin-Watson Test* &nbsp; [PDF](Statistics\dublin.pdf)
+    - :round_pushpin: *EM Estimate of mixture models*  &nbsp; [PDF](Statistics\mixture.pdf)
+    - :round-pushpin: *MLE of weibull distribution*  &nbsp; [PDF](Statistics\weibull.pdf)
+
 
 10. :pushpin: **Linear Algebra**
     - :round_pushpin: *LU Matrix Factorization*  &nbsp; [PDF](Linear%20Algebra/LU/lu.pdf)  &emsp; [Source](LinearAlgebra/LU/lu.R)
@@ -56,6 +63,10 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *Bisection*  &nbsp; [PDF](Mathematics/bisection.pdf)  &emsp; [Source](Mathematics/bisection.R)
     
 
-    
+ ### *Credit Card Fraud Detection using Random Forest using Julia from Scratch*  &nbsp; [PDF](Credit%20Card%20Fraud%20Detection%20Using%20Random%20Forest.pdf)
 
+ ### *A simple coin tossing Experiments*  &nbsp; [PDF](coin.pdf)  
 
+ ### *Cross Validation* &nbsp; [PDF](cv.pdf) 
+
+### **Archived** &nbsp; [PDF](archieve.pdf) &nbsp; [PDF](archieve2.pdf)
