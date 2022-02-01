@@ -69,6 +69,6 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
  ### *Cross Validation* &nbsp; [PDF](cv.pdf) 
 
- ### *Infimum og Inverse Gamma Distribution*  &nbsp; [PDF](inversegamma.pdf)
+ ### *Infimum of Inverse Gamma Distribution*  &nbsp; [PDF](inversegamma.pdf)
 
 ### **Archived** &nbsp; [PDF](archieve.pdf) &nbsp; [PDF](archieve2.pdf)
