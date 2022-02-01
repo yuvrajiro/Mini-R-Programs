@@ -63,12 +63,12 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
     - :round_pushpin: *Bisection*  &nbsp; [PDF](Mathematics/bisection.pdf)  &emsp; [Source](Mathematics/bisection.R)
     
 
- ### *Credit Card Fraud Detection using Random Forest using Julia from Scratch*  &nbsp; [PDF](Credit%20Card%20Fraud%20Detection%20Using%20Random%20Forest.pdf)
+### *Credit Card Fraud Detection using Random Forest using Julia from Scratch*  &nbsp; [PDF](Credit%20Card%20Fraud%20Detection%20Using%20Random%20Forest.pdf)
 
- ### *A simple coin tossing Experiments*  &nbsp; [PDF](coin.pdf)  
+### *A simple coin tossing Experiments*  &nbsp; [PDF](coin.pdf)  
 
- ### *Cross Validation* &nbsp; [PDF](cv.pdf) 
+### *Cross Validation* &nbsp; [PDF](cv.pdf) 
 
- ### *Infimum of Inverse Gamma Distribution*  &nbsp; [PDF](inversegamma.pdf)
+### *Infimum of Inverse Gamma Distribution*  &nbsp; [PDF](inversegamma.pdf)  
 
 ### **Archived** &nbsp; [PDF](archieve.pdf) &nbsp; [PDF](archieve2.pdf)
