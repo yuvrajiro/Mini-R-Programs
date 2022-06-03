@@ -1,4 +1,6 @@
-### Functions (briefly described using comments in code)
+### I have created this file for a UPwork client Andry Mintry
+
+
 name_of_function_1 <- function(x, k){
   stopifnot(k > 1)
 
