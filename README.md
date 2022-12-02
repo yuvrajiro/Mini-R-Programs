@@ -15,10 +15,11 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 
 ## List of scripts
-
+<p align="center">
 ![Bisection Method](bisection.gif) 
 
 *Root of f(x) = x^2+4*x - 4 using Bisection Method*
+ </p>
 
 1. :pushpin: **Sorting**  
    - :round_pushpin: *Quick Sort*  &nbsp; [PDF](Sorting/QuickSort/quicksort.pdf)  &emsp; [Source](Sorting/QuickSort/quicksort.R)  
