@@ -16,7 +16,10 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 ## List of scripts
 
-![Bisection](bisection.gif)
+<p align="center">
+    <img width="200" src="bisection.gif" alt="Bisection Method">
+</p>
+
 
 
 
