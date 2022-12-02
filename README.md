@@ -18,8 +18,13 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 <p align="center">
 ![Bisection Method](https://github.com/yuvrajiro/Mini-R-Programs/blob/ca992a89260d1d1e704979024b15008c513dc72c/bisection.gif) 
 
-*Root of f(x) = x^2+4*x - 4 using Bisection Method*
- </p>
+Root of f(x) = x^2+4*x - 4 using Bisection Method*
+ </p
+ 
+<p align="center">
+  ![Bisection](https://github.com/yuvrajiro/Mini-R-Programsy/bisection.gif)
+</p>
+
 
 1. :pushpin: **Sorting**  
    - :round_pushpin: *Quick Sort*  &nbsp; [PDF](Sorting/QuickSort/quicksort.pdf)  &emsp; [Source](Sorting/QuickSort/quicksort.R)  
