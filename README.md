@@ -16,7 +16,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 ## List of scripts
 <p align="center">
-![Bisection Method](https://github.com/yuvrajiro/Mini-R-Programs/blob/ca992a89260d1d1e704979024b15008c513dc72c/bisection.gif) 
+![Bisection Method](https://github.com/yuvrajiro/Mini-R-Programs/bisection.gif) 
 
 Root of f(x) = x^2+4*x - 4 using Bisection Method*
  </p
