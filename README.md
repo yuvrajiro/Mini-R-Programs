@@ -3,10 +3,10 @@
 This repo is a collection of useful scripts in R that I had made during my time at the Banaras Hindu University. This repo is not meant to be a complete R library but rather a collection of scripts for more minor works from Scratch.
 
 <p align="center">
-    <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
+    <a href="https://www.iitg.ac.in/stud/rahul.goswami/">
       <img src="https://img.shields.io/badge/Academic%20Profile%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
     </a>
-    <a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
+    <a href="https://www.statml.in">
       <img src="https://img.shields.io/badge/Blog%20statml%20.in%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
     </a>
  </p>
