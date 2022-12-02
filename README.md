@@ -18,6 +18,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 <p align="center">
     <img src="bisection.gif" alt="Bisection Method">
+    
     Bisection Method
 </p>
 
