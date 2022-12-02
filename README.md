@@ -15,15 +15,9 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 
 ## List of scripts
-<p align="center">
-![Bisection Method](https://github.com/yuvrajiro/Mini-R-Programs/bisection.gif) 
 
-Root of f(x) = x^2+4*x - 4 using Bisection Method*
- </p
- 
-<p align="center">
-  ![Bisection](https://github.com/yuvrajiro/Mini-R-Programsy/bisection.gif)
-</p>
+![Bisection](https://github.com/yuvrajiro/Mini-R-Programsy/bisection.gif)
+
 
 
 1. :pushpin: **Sorting**  
