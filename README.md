@@ -16,7 +16,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 ## List of scripts
 
-![Bisection](https://github.com/yuvrajiro/Mini-R-Programsy/bisection.gif)
+![Bisection](bisection.gif)
 
 
 
