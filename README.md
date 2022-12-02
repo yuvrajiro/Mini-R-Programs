@@ -16,7 +16,7 @@ Programming Language using JAX. If you are interested in this, don't hesitate to
 
 ## List of scripts
 
-
+![Bisection Method](bisection.gif)
 
 1. :pushpin: **Sorting**  
    - :round_pushpin: *Quick Sort*  &nbsp; [PDF](Sorting/QuickSort/quicksort.pdf)  &emsp; [Source](Sorting/QuickSort/quicksort.R)  
