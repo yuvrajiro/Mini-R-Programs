@@ -19,6 +19,8 @@ Computing at Banaras Hindu University at the Centre for Interdisciplinary
 Mathematical Sciences (CIMS). Currently, my research is focused on the 
 Statistical Machine Learning and its applications.  
 
+Contact : rahul.goswami@iitg.ac.in , yuvrajiro@gmail.com
+
 :warning: I am looking for collaborators specifically for writing a Probabilistic 
 Programming Language using JAX. If you are interested in this, don't hesitate to get in touch with me. 
 
